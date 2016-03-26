@@ -25,4 +25,5 @@ As of now, the current endpoints supported by this module are:
 * `getRIN(rin)` - this module takes a Rensselaer Identification Number and returns user data
 * `getWTG(rcs_id)` - this module takes a Rensselaer Computing System user id and returns whether or not the user is a member of the Web Technologies Group
 * `getRNE(rcs_id)` - this module takes a Rensselaer Computing System user id and returns whether or not the user is a member of the Rules and Elections Committee
-
+* `getOrgs(rin)` - this module takes a Rensselaer Identification Number and returns club objects where the user is an officer
+* `getAllOrgs(rin)` - this module takes a Rensselaer Identification Number and returns club objects where the user is either a member or an officer

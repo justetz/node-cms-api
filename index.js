@@ -12,10 +12,12 @@ var defaults = {
 };
 
 var endpoints = {
-    rcs: '/api/users/view_rcs/%/',
-    rin: '/api/users/view_rin/%/',
-    wtg: '/api/users/get_if_wtg/%/',
-    rne: '/api/users/get_if_rne/%/'
+    rcs:     '/api/users/view_rcs/%/',
+    rin:     '/api/users/view_rin/%/',
+    wtg:     '/api/users/get_if_wtg/%/',
+    rne:     '/api/users/get_if_rne/%/',
+    orgs:    '/api/users/get_orgs/%/',
+    allOrgs: '/api/users/get_all_orgs/%/'
 };
 
 var execute = function(path) {
@@ -70,6 +72,12 @@ module.exports = function (token) {
     },
     getRNE: function(rcs_id) {
         return execute(endpoints.rne.replace(/%/g, rcs_id));
+    },
+    getOrgs: function(rin) {
+        return execute(endpoints.orgs.replace(/%/g, rin));
+    },
+    getAllOrgs: function(rin) {
+        return execute(endpoints.allOrgs.replace(/%/g, rin));
     }
   };
 };
