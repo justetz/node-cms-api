@@ -1,6 +1,6 @@
 {
   "name": "cms-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node wrapper for RPI's Club Management System API",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,14 @@
   "license": "MIT",
   "dependencies": {
     "q": "^1.4.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justetz/node-cms-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justetz/node-cms-api/issues"
+  },
+  "homepage": "https://github.com/justetz/node-cms-api#readme"
 }
