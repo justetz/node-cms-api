@@ -1,0 +1,14 @@
+{
+  "name": "cms-api",
+  "version": "0.0.1",
+  "description": "A node wrapper for RPI's Club Management System API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Etzine",
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}
