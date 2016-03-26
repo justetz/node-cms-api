@@ -1,6 +1,6 @@
 {
   "name": "cms-api",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A node wrapper for RPI's Club Management System API",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/justetz/node-cms-api/issues"
   },
-  "homepage": "https://github.com/justetz/node-cms-api#readme"
+  "homepage": "https://github.com/justetz/node-cms-api#readme",
+  "keywords": [
+    "CMS",
+    "Club",
+    "Management",
+    "System",
+    "API",
+    "RPI"
+  ]
 }
